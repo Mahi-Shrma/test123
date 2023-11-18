@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 *{
     padding:0px;
     margin: 0px;
@@ -6,13 +7,18 @@
 }
 #navbar>div{
     display:inline-block;
-    
+
 }
 #navbar{
     width: 1728px;
     height: 86px;
     flex-shrink: 0;
     background-color: #FCAF02;
+}
+::placeholder{
+    font-family: Montserrat;
+    color: #FCAF02;
+    font-size: 28px;
 }
 #start{
     font-family: Montsarret;
@@ -60,7 +66,84 @@ input{
     text-align: center;
 
 }
-table{
-    color:rgb(231, 194, 10);
-    width: 100%;
+.inputs{
+    border: 1px solid #FCAF02;
+    border-radius: 300px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 28px;
+    padding-left: 50px;
+    height: 60px;
+    width: 90%;
+    margin: 30px;
+    margin-left: 60px;
+    background-color: #000000;
+    outline: none;
+}
+.mininp{
+    width: 40.3%;
+}
+#table{
+    margin:50px;
+    margin-top: 110px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+#table>table{
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+    color: #FCAF02;
+    width: 98%;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 10px;
+}
+#table>table>tbody td{
+    border-right: 2px solid #FCAF02 ;
+    padding-left: 50px;
+    height: 85px;
+}
+#table>table th{
+    border-right: 2px solid #FCAF02 ;
+    border-bottom: 2px solid #FCAF02 ;
+    height: 40px;
+}
+#table>table>tfoot td{
+    background-color: #FCAF02;
+    color: #000000;
+    height: 78px;
+    padding-left: 50px;
+    border-right: 2px solid #000000 ;
+    font-weight: 400;
+}
+#th1{
+width: 8%;
+padding: 25px;
+font-weight: 400;
+}
+#th2{
+ width: 33%;
+ padding-left: 33px;
+ font-weight: 400;
+}
+#th3{
+ width: 59%;
+ font-weight: 400;
+ padding-left: 47px;
+}
+#table>table>tfoot>tr>#foot1{
+    padding-left: 40px;;
+}
+#table>table>tfoot>tr>#foot2{
+    border-right: 2px solid #FCAF02;
+}
+#table>table>tbody>tr:nth-child(1)>td{
+    padding-top: 29px;
+}
+#table>table>tbody>tr:nth-child(6)>td{
+    padding-bottom: 38px;
 }
